@@ -1,0 +1,31 @@
+Sign up
+
+http://localhost:8080/api/auth/signup
+
+{
+"name":"mohib khan",
+"username":"mohib",
+"email":"thisismohib@gmail.com",
+"password":"password"
+}
+
+
+{
+  "success": true,
+  "message": "User registered successfully"
+}
+
+
+Login
+http://localhost:8080/api/auth/signin
+
+{
+"usernameOrEmail":"mohib",
+"password":"password"
+}
+
+
+
+{"accessToken":"eyJhbGciOiJIUzUxMiJ9.eyJzdWIiOiIxIiwiaWF0IjoxNTU1MjIxNjkxLCJleHAiOjE1NTU4MjY0OTF9.8e3_bDUpd5Azcw9Uj9rNKmFNvgbhkZdl1yqIahsB1BRCLeuElj2Pvsf4whenIc8xbnjLs4uuXidL36r2dMyOfg","tokenType":"Bearer"}
+
+loginRequest
